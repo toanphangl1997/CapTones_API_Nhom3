@@ -1,0 +1,128 @@
+/* SLIDER */
+
+.slider {
+    background-image: url('./img/sliderBackground.jpg');
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+    background-size: 100vw;
+    overflow: hidden;
+
+    .sliderWrapper {
+        display: flex;
+        width: 500vw;
+        transition: all 1.5s ease-in-out;
+
+        .sliderItem {
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+
+            .sliderBgCircle {
+                width: 750px;
+                height: 750px;
+                border-radius: 50%;
+                position: absolute;
+                background-color: rgba(0, 205, 0, 0.65);
+
+                &:nth-child(2) .sliderBgCircle {
+                    background-color: rgba(102, 51, 153, 0.65);
+                  }
+            
+                  &:nth-child(3) .sliderBgCircle {
+                    background-color: rgba(0, 128, 128, 0.65);
+                  }
+            
+                  &:nth-child(4) .sliderBgCircle {
+                    background-color: rgba(100, 149, 237, 0.65);
+                  }
+            
+                  &:nth-child(5) .sliderBgCircle {
+                    background-color: rgba(211, 103, 105, 0.65);
+                  }
+              }
+             
+              .sliderImage {
+                z-index: 1;
+              }
+              .sliderTitle {
+                position: absolute;
+                top: 10%;
+                right: 10%;
+                font-size: 3.75rem;
+                font-weight: 900;
+                text-align: right;
+                color: black;
+                z-index: 1;
+              }
+              .sliderPrice {
+                position: absolute;
+                top: 10%;
+                left: 5%;
+                font-size: 3.75rem;
+                font-weight: 300;
+                text-align: right;
+                color: white;
+                border: 1px solid gray;
+                z-index: 1;
+
+                &:nth-child(1) {
+                    background-color: #111;
+                    color: rgba(0, 205, 0);
+                    padding: 5px;
+                  }
+                  &:nth-child(2) {
+                    background-color: #111;
+                    color: rgb(150, 44, 255);
+                    padding: 5px;
+                  }
+                  &:nth-child(3) {
+                    background-color: #111;
+                    color: rgb(0, 174, 174);
+                    padding: 5px;
+                  }
+                  &:nth-child(4) {
+                    background-color: #111;
+                    color: rgb(83, 143, 255);
+                    padding: 5px;
+                  }
+                  &:nth-child(5) {
+                    background-color: #111;
+                    color: rgb(255, 93, 95);
+                    padding: 5px;
+                  }
+                }
+                a {
+                    .buyButton {
+                        position: absolute;
+                        top: 70%;
+                        right: 10%;
+                        font-size: 1.875rem;
+                        font-weight: 900;
+                        text-align: right;
+                        color: white;
+                        border: 1px solid gray;
+                        background-color: black;
+                        z-index: 1;
+                        cursor: pointer;
+                
+                        &:hover {
+                          background-color: white;
+                          color: black;
+                        }
+                      }
+                }
+              }
+          }   
+      }
+
+  
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,170 @@
+/* NAVIGATION BAR */
+nav {
+  background-color: green;
+  color: white;
+  padding: 20px 50px;
+}
+nav .navTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .navTop .navItem .search {
+  display: flex;
+  align-items: center;
+  background-color: gray;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+nav .navTop .navItem .search .searchInput {
+  border: none;
+  background-color: transparent;
+}
+nav .navTop .navItem .search .searchInput::-moz-placeholder {
+  color: lightgray;
+}
+nav .navTop .navItem .search .searchInput::placeholder {
+  color: lightgray;
+}
+nav .navTop .navItem .search .searchIcon:hover {
+  cursor: pointer;
+}
+nav .navTop .navItem .limitedOffer {
+  font-size: 1.25rem;
+  border-bottom: 2px solid #e4ae01;
+  cursor: pointer;
+}
+nav .navBottom {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav .navBottom .menuItem {
+  margin-right: 3.125em;
+  margin-top: 2.5em;
+  cursor: pointer;
+  color: lightgray;
+  font-weight: 400;
+}
+nav .navBottom .menuItem:hover {
+  color: rgb(0, 205, 0);
+}
+nav .navBottom .menuItem:hover:nth-child(2) {
+  color: rgb(150, 44, 255);
+}
+nav .navBottom .menuItem:hover:nth-child(3) {
+  color: rgb(0, 174, 174);
+}
+nav .navBottom .menuItem:hover:nth-child(4) {
+  color: rgb(83, 143, 255);
+}
+nav .navBottom .menuItem:hover:nth-child(5) {
+  color: rgb(255, 93, 95);
+}
+
+/* SLIDER */
+.slider {
+  background-image: url("./img/sliderBackground.jpg");
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+  background-size: 100vw;
+  overflow: hidden;
+}
+.slider .sliderWrapper {
+  display: flex;
+  width: 500vw;
+  transition: all 1.5s ease-in-out;
+}
+.slider .sliderWrapper .sliderItem {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.slider .sliderWrapper .sliderItem .sliderBgCircle {
+  width: 750px;
+  height: 750px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: rgba(0, 205, 0, 0.65);
+}
+.slider .sliderWrapper .sliderItem .sliderBgCircle:nth-child(2) .sliderBgCircle {
+  background-color: rgba(102, 51, 153, 0.65);
+}
+.slider .sliderWrapper .sliderItem .sliderBgCircle:nth-child(3) .sliderBgCircle {
+  background-color: rgba(0, 128, 128, 0.65);
+}
+.slider .sliderWrapper .sliderItem .sliderBgCircle:nth-child(4) .sliderBgCircle {
+  background-color: rgba(100, 149, 237, 0.65);
+}
+.slider .sliderWrapper .sliderItem .sliderBgCircle:nth-child(5) .sliderBgCircle {
+  background-color: rgba(211, 103, 105, 0.65);
+}
+.slider .sliderWrapper .sliderItem .sliderImage {
+  z-index: 1;
+}
+.slider .sliderWrapper .sliderItem .sliderTitle {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  font-size: 3.75rem;
+  font-weight: 900;
+  text-align: right;
+  color: black;
+  z-index: 1;
+}
+.slider .sliderWrapper .sliderItem .sliderPrice {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  font-size: 3.75rem;
+  font-weight: 300;
+  text-align: right;
+  color: white;
+  border: 1px solid gray;
+  z-index: 1;
+}
+.slider .sliderWrapper .sliderItem .sliderPrice:nth-child(1) {
+  background-color: #111;
+  color: rgb(0, 205, 0);
+  padding: 5px;
+}
+.slider .sliderWrapper .sliderItem .sliderPrice:nth-child(2) {
+  background-color: #111;
+  color: rgb(150, 44, 255);
+  padding: 5px;
+}
+.slider .sliderWrapper .sliderItem .sliderPrice:nth-child(3) {
+  background-color: #111;
+  color: rgb(0, 174, 174);
+  padding: 5px;
+}
+.slider .sliderWrapper .sliderItem .sliderPrice:nth-child(4) {
+  background-color: #111;
+  color: rgb(83, 143, 255);
+  padding: 5px;
+}
+.slider .sliderWrapper .sliderItem .sliderPrice:nth-child(5) {
+  background-color: #111;
+  color: rgb(255, 93, 95);
+  padding: 5px;
+}
+.slider .sliderWrapper .sliderItem a .buyButton {
+  position: absolute;
+  top: 70%;
+  right: 10%;
+  font-size: 1.875rem;
+  font-weight: 900;
+  text-align: right;
+  color: white;
+  border: 1px solid gray;
+  background-color: black;
+  z-index: 1;
+  cursor: pointer;
+}
+.slider .sliderWrapper .sliderItem a .buyButton:hover {
+  background-color: white;
+  color: black;
+}/*# sourceMappingURL=main.css.map */
