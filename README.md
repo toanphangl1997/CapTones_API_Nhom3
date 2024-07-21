@@ -6,8 +6,7 @@ This is the work contribution of my team members:
 
 ## 🛠 Team Contributions:
 
-| Team Member    | Contribution                                                 |
-|----------------|--------------------------------------------------------------|
-| **Trung Hieu** | API Routing for index.html, in charge of index.js, styles.css|
-| **Toan Phan**  | Styling for the whole page using SASS                        |
-| **Hau**        | In charge of creating SignIn and SignUp windows              |
+| Team Member    | Contribution                                                                                         |
+|----------------|------------------------------------------------------------------------------------------------------|
+| **Trung Hieu** | API Routing for index.html, in charge of index.js, styles.css,and creating SignIn and SignUp windows |
+| **Toan Phan**  | Styling for the whole page using SASS                                                                |
