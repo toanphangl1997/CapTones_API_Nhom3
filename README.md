@@ -77,25 +77,12 @@ The project is structured to provide a seamless and engaging user experience. Th
 
 ### Screenshots
 
-#### Desktop
-
-![Shoo Store Landing Page](readme-img/desktop_1.png)
-
-![Shoo Store Landing Page](readme-img/desktop_2.png)
-
-#### Mobile
-
-![Shoo Store Landing Page](readme-img/mobile_1.png)
-
-![Shoo Store Landing Page](readme-img/mobile_2.png)
-
 ### Contributors
 
 | Team Member    | Contribution                                     |
 |----------------|--------------------------------------------------|
-| **Trung Hieu** | API Routing for index.html, in charge of index.js|
-| **Toan Phan**  | Styling for the whole page using SASS            |
-| **Hau**        | In charge of creating SignIn and SignUp windows  |
+| **Trung Hieu** | API Routing for all pages, in charge of styling for index.js, creating SignIn and SignUp modal |
+| **Toan Phan**  | Styling for the whole page using SASS           |
 
 ### Conclusion
 
