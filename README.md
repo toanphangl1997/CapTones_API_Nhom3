@@ -81,8 +81,8 @@ The project is structured to provide a seamless and engaging user experience. Th
 
 | Team Member    | Contribution                                     |
 |----------------|--------------------------------------------------|
-| **Trung Hieu** | API Routing for all pages, in charge of styling for index.js, creating SignIn and SignUp modal |
-| **Toan Phan**  | Styling for the whole page using SASS           |
+| **Trung Hieu** | API Routing for all pages, creating SignIn and SignUp modal |
+| **Toan Phan**  | Styling for the whole page using SASS, in charge of styling for index.js,           |
 
 ### Conclusion
 
