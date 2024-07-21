@@ -4,20 +4,6 @@ Shoo is a fully responsive landing page for an online shoe store. The code is wr
 
 This is the work contribution of my team members:
 
-## ✨ How It Looks:
-
-### Desktop ⬇️
-
-![Shoo Store Landing Page](readme-img/desktop_1.png)
-
-![Shoo Store Landing Page](readme-img/desktop_2.png)
-
-### Mobile ⬇️
-
-![Shoo Store Landing Page](readme-img/mobile_1.png)
-
-![Shoo Store Landing Page](readme-img/mobile_2.png)
-
 ## 🛠 Team Contributions:
 
 | Team Member    | Contribution                                                 |
