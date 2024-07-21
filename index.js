@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     "productDetailContainer"
   );
   const buyItems = document.querySelectorAll(".buyNowButton");
-
+  
   menuItems.forEach((item, index) => {
     item.addEventListener("click", () => {
       //changes the current slide
@@ -145,7 +145,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 </div>
             </div>
         `;
-
+    
+    
     // Add event listeners for size selection
     const sizeElements = productDetailContainer.querySelectorAll(".size");
     sizeElements.forEach((sizeElement) => {
@@ -164,4 +165,7 @@ document.addEventListener("DOMContentLoaded", () => {
   fetchProductsByCategory("NIKE");
   fetchProductsByCategory("ADIDAS");
   fetchProductsByCategory("VANS_CONVERSE");
+  
 });
+
+
